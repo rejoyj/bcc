@@ -209,3 +209,12 @@
     padding-bottom: 56.25%; 
   }
 }
+
+.toast-container {
+  margin-top: 90px; 
+}
+
+.toast {
+  border-radius: 5px; 
+}
+

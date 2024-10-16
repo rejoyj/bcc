@@ -14,6 +14,14 @@ document.addEventListener("click", function (event) {
   let isClickInsideNavbar = navbar.contains(event.target);
 
   if (!isClickInsideNavbar && navbar.classList.contains("show")) {
-    navbarToggler.click(); // Collapse the navbar
+    navbarToggler.click();
   }
 });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var toastEl = document.getElementById('notificationToast');
+    var toast = new bootstrap.Toast(toastEl);
+    toast.show();
+  });
+
+
